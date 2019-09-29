@@ -20,10 +20,10 @@ The [authentication and authorization](https://docs.microsoft.com/en-us/azure/ap
 * Custom RBAC role contained in this repo
 * [Gets Keys permission](https://docs.microsoft.com/en-us/rest/api/keyvault/getkeys) and [Get Secrets permission](https://docs.microsoft.com/en-us/rest/api/keyvault/getsecrets) granted on [access policy](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault) for each Key Vault
 * Function Application Settings below
-** "KV_API_VERSION": "7.0"
-** "KV_MGMT_API_VERSION": "2018-02-14"
-** "MGMT_API_VERSION": "2019-08-01"
-** "MSI_API_VERSION": "2017-09-01"
+  * "KV_API_VERSION": "7.0"
+  * "KV_MGMT_API_VERSION": "2018-02-14"
+  * "MGMT_API_VERSION": "2019-08-01"
+  * "MSI_API_VERSION": "2017-09-01"
 
 ## Setup
 1. Create new Python Azure Function with Azure Function Consumption Plan for Linux
