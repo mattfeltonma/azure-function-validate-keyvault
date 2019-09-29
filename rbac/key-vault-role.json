@@ -1,0 +1,15 @@
+{
+  "Name": "Key Vault Compliance Checker",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "This role grants the Key Vault Compliance Checker Azure Function the appropriate permissions to list keys and secrets in Azure Key Vault instances within a subscription",
+  "Actions": [
+    "*/read",
+    "Microsoft.KeyVault/vaults/write"
+  ],
+  "NotActions": [
+  ],
+  "AssignableScopes": [
+    "/subscriptions/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+  ]
+}
